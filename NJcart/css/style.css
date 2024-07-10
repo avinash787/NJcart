@@ -1,0 +1,326 @@
+body
+{
+ margin:0px;
+ padding:0px;	
+}
+#main
+{
+  width:960px;
+  min-height:650px;
+  margin-left:auto;
+  margin-right:auto;
+  border:1px solid black;	
+}
+#header
+{
+   height:210px;
+  background-color:#999;	
+}
+#content
+{
+  min-height:450px;
+  background-color:#3FF;
+  padding:10px;
+}
+#footer
+{
+  height:50px;
+  background-color:black;
+  color:white;
+  font-size:24px;
+  text-align:center;
+  line-height:50px;
+  clear:both;	
+
+}
+#leftLogo
+{
+  height:150px;
+  width:150px;
+  background-color:#0FF;
+  float:left;	
+}
+#title
+{
+  height:150px;
+  width:660px;
+  background-color:#06F;
+    float:left;
+}
+#rightLogo
+{
+  height:150px;
+  width:150px;
+  background-color:#0FF;	
+    float:left;
+}
+#leftLogo img,#rightLogo img
+{
+  width:100%;
+  height:100%;	
+}
+#title h1
+{
+  margin:0px;
+  font-size:50px;
+  color:yellow;
+  margin-top:10px;
+  text-align:center;	
+}
+#title h3
+{
+  text-align:center;
+  margin:0px;
+  color:white;	
+}
+#register 
+{
+  text-align:right;	
+}
+#register a
+{
+  text-decoration:none;
+  color:#00F;
+  font-size:20px;	
+}
+/* form setting */
+#myForm
+{
+  width:600px;
+  min-height:250px;
+  background-color:blue;   
+   margin-top:40px;
+   margin-left:auto;
+   margin-right:auto;
+   padding:20px;
+   margin-bottom:40px;
+   border-radius:10px;
+}
+#myForm label
+{
+  color:white;	
+  font-size:24px;
+}
+#myForm input[type="text"],#myForm input[type="password"],#myForm select,#myForm input[type="file"],#myForm input[type="date"],#myForm textarea
+{
+  width:100%;	
+  font-size:20px;
+  padding:4px;
+  margin:5px 0px;
+  border:2px solid #0FF;
+}
+#myForm input[type="submit"],#myForm input[type="reset"],#myForm input[type="button"]
+{
+  width:100px;
+  height:40px;
+  margin:10px 20px;
+  background-color:yellow;
+  border:3px solid red;
+  border-radius:10px 0px;
+  font-size:20px;	
+}
+#responseMsg
+{
+  background-color:white;
+  color:red;
+  font-size:24px;
+  height:30px;
+  line-height:30px;
+  text-align:center;	
+}
+#adminContent
+{
+ background-color:#333;	
+}
+#leftSide
+{
+	min-height:450px; 
+    background-color:#333;
+
+	width:150px;  
+    display:table-cell;
+ 
+}
+#rightSide
+{
+	min-height:450px; 
+    background-color:#efefef;
+	width:810px;  	
+    display:table-cell;
+}
+#adminMenu ul
+{
+  margin:0px;
+  padding:0px;
+  list-style:none;	
+  min-height:450px;
+}
+#adminMenu ul li
+{
+  line-height:30px;
+  background-color:#333;
+  color:yellow;
+  text-align:center;
+}
+#adminMenu ul li a
+{
+	color:white;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+    display:block;
+}
+#adminMenu ul li a:hover
+{
+	background-color:white;
+	color:black;
+}
+#categoryArea
+{
+  padding:15px;	
+}
+.category
+{
+  width:220px;
+  height:180px;
+  border:1px solid black;
+  display:inline-block;
+  margin:5px;
+  border-radius:10px;
+  text-align:center;
+  padding-top:20px;	
+  font-size:20px;
+}
+#itemArea
+{
+  padding:15px;	
+}
+.item
+{
+  width:220px;
+  min-height:330px;
+  border:1px solid black;
+  display:inline-block;
+  margin:5px;
+  border-radius:10px;
+  text-align:center;
+  padding-top:20px;	
+  font-size:20px;
+}
+.buyButton
+{
+  width:100px;
+  height:40px;
+  background-color:yellow;
+  margin:10px auto;
+  line-height:40px;
+  border-radius:10px;	
+}
+.buyButton a
+{
+  text-decoration:none;
+  line-height:40px;	
+  display:block;
+  color:black;
+}
+.buyButton a:hover
+{
+  background-color:black;
+  color:yellow;	
+    border-radius:10px;	
+}
+#welcomeUser
+{
+  text-align:center;
+  color:white;
+  margin-top:10px; 
+  font-size:18px;
+}
+#welcomeUser a
+{
+  color:red;
+  text-decoration:none;
+  background-color:yellow;	
+}
+#placeOrder
+{
+  width:150px;
+  height:50px;
+  text-align:center;
+  background-color:yellow;
+  border:3px solid red;
+  margin:20px auto;
+   border-radius:20px 0px;  	
+}
+#placeOrder a
+{
+  line-height:50px;
+  font-size:20px;
+  text-decoration:none;
+  color:black;
+  display:block;	
+   border-radius:20px 0px;  	
+
+}
+#placeOrder a:hover
+{
+   border-radius:20px 0px;  	
+   background-color:red;
+   color:yellow;
+     border:3px solid yellow;
+}
+#replyBtn
+{
+  width:100px;
+  height:40px;
+  background-color:black;
+  color:white;
+  font-size:24px;
+  margin:30px auto;	
+  border-radius:3px;
+  border:3px solid red;
+}
+#replyBtn a
+{
+  line-height:40px;
+  text-align:center;
+  display:block;
+  color:white;
+  text-decoration:none;	
+}
+#myList
+{
+  margin:20px;
+  padding:20px;
+  border:2px solid black;
+  width:700px;
+  height:420px;
+  overflow:scroll;	
+}
+#searchBar
+{
+	clear:both;
+  height:40px;
+  padding:10px;
+  background-color:#C00;	
+  line-height:40px;
+  font-size:24px;
+  text-align:center;
+}
+#searchBar input[type="text"]
+{
+  width:400px;	
+  font-size:24px;
+  border:1px solid black;
+  margin:0px 10px;
+  padding:3px;
+}
+#searchBar input[type="submit"]
+{
+   width:100px;
+   border-radius:3px;
+   background-color:white;
+   font-size:24px;
+   border:2px solid black;	
+}
